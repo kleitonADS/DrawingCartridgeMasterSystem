@@ -11,15 +11,41 @@ div, section, ::after{
   position: absolute;
 }
 
+.name-cartridge{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'sega-font';
+  font-size: 41px;
+  font-weight: lighter;
+  color: #fff;
+  padding-top: 100px;
+  z-index: 7;
+}
+
 /* Parts */
 .base-cartridge{
   width: 1200px;
-  height: 550px;
-  margin-top: 60px;
+  height: 305px;
+  margin-top: 200px;
   margin-left: -600px;
   left: 50%;
   background-color: #2225252e;
   z-index: 1;
+}
+
+/* Parts */
+.base-video{
+  width: 1200px;
+  height: 470px;
+  margin-top: 533px;
+  margin-left: -600px;
+  left: 50%;
+  background-color: #2225252e;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 .part01-cartridge{
@@ -1061,57 +1087,8 @@ div, section, ::after{
   z-index: 7;
 }
 
-.part92-cartridge{
-  width: 40px;
-  height: 40px;
-  border-top: 1px solid #000;
-  border-left:  1px solid #000;
-  left: -20px;
-  top: -20.5px;
-  z-index: 7;
-}
 
-.part92-cartridge::after{
-  content: "";
-  width: 40px;
-  height: 40px;
-  border-top: 1px solid #000;
-  border-right: 1px solid #000;
-  right: -1200px;
-  top: -2px;
-  z-index: 10;
-}
 
-.part93-cartridge{
-  width: 40px;
-  height: 40px;
-  border-bottom:1px solid #000;
-  border-left:  1px solid #000;
-  left: -20px;
-  bottom: -20px;
-  z-index: 7;
-}
-
-.part93-cartridge::after{
-  content: "";
-  width: 40px;
-  height: 40px;
-  border-bottom:1px solid #000;
-  border-right:  1px solid #000;
-  right: -1200px;
-  bottom: 0px;
-  z-index: 7;
-}
-
-.name-cartridge{
-  font-family: 'sega-font';
-  font-size: 41px;
-  font-weight: lighter;
-  color: #fff;
-  left: 250px;
-  bottom: 60px;
-  z-index: 7;
-}
 
 .name-game{
   font-family: serif;
